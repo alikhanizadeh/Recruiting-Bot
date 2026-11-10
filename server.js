@@ -87,12 +87,13 @@ app.get('/api/applications', requireN8nApiToken, (req, res) => {
         ? application.processingStatus !== 'processed'
         : application.processingStatus === status))
     .slice(0, limit)
-    .map(({ id, jobId, jobTitle, fullName, email, coverLetter, createdAt, processingStatus, resume }) => ({
+    .map(({ id, jobId, jobTitle, fullName, email, phone, coverLetter, createdAt, processingStatus, resume }) => ({
       id,
       jobId,
       jobTitle,
       fullName,
       email,
+      phone,
       coverLetter,
       createdAt,
       processingStatus,
