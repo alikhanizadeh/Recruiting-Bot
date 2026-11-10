@@ -313,7 +313,7 @@
           "value": {
             "نام متقاضی": "={{ $json.candidateName }}",
             "ایمیل": "={{ $json.candidateEmail }}",
-            "phone": "={{ $json.phone || '' }}",
+            "شماره تماس": "={{ $json.phone || '' }}",
             "امتیاز": "={{ $json.score }}",
             "توضیحات": "={{ $json.comment }}",
             "تاریخ ثبت درخواست": "={{ $json.dateFa }}",
@@ -733,7 +733,7 @@
           "value": {
             "نام متقاضی": "={{ $json.candidateName }}",
             "ایمیل": "={{ $json.candidateEmail }}",
-            "phone": "={{ $json.phone || '' }}",
+            "شماره تماس": "={{ $json.phone || '' }}",
             "امتیاز": "={{ $json.score }}",
             "توضیحات": "={{ $json.comment }}",
             "تاریخ ثبت درخواست": "={{ $json.dateFa }}",
